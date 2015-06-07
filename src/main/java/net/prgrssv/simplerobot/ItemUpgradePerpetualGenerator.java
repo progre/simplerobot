@@ -26,5 +26,6 @@ public class ItemUpgradePerpetualGenerator extends Item {
 	public ItemUpgradePerpetualGenerator() {
 		setUnlocalizedName(ITEM_NAME);
 		setCreativeTab(CreativeTabs.tabAllSearch);
+		setTextureName("opencomputers:UpgradeGenerator");
 	}
 }

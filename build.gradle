@@ -17,9 +17,9 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "0.0.0"
+version = "0.0.1"
 group= "net.prgrssv.simplerobot" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "simplerobot"
+archivesBaseName = "SimpleRobot"
 
 minecraft {
     version = "1.7.10-10.13.3.1408-1.7.10"

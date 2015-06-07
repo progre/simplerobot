@@ -72,6 +72,7 @@ public class Tortoise {
 				getNbt("diskDrive")
 		});
 		nbt.setInteger("oc:lightColor", 0xF23030);
+		nbt.setBoolean("oc:undisassemblable", true);
 		return nbt;
 	}
 

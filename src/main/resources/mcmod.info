@@ -1,16 +1,18 @@
-[
-{
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+[{
+  "modid": "SimpleRobot",
+  "name": "Simple Robot",
+  "description": "A OpenComputers addon for simplify.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/progre/simplerobot",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["progre"],
+  "credits": "Powered by OpenComputers.",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
-}
-]
+  "parent": "mod_BuildCraftCore",
+  "requiredMods": [ "OpenComputers@[1.4.0,)" ],
+  "dependencies": [],
+  "dependants": [],
+  "useDependencyInformation": true
+}]

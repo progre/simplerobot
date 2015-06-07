@@ -6,8 +6,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@Mod(modid = "SimpleRobot", name = "Simple Robot", version = "0.0.0",
-		dependencies = "required-after:OpenComputers@[1.4.0,)")
+@Mod(modid = "SimpleRobot", name = "Simple Robot")
 public class SimpleRobot {
 	@Mod.Instance
 	private static SimpleRobot instance;
